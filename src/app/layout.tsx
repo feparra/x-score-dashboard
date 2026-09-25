@@ -15,7 +15,7 @@ const robotoMono = Roboto_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "X Score Dashboard — Synergy Drive Systems",
+  title: "TGT Analytics — X Score Dashboard",
   description: "X (Twitter) account scoring dashboard with engagement metrics and signal breakdowns.",
 };
 
