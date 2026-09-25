@@ -6,21 +6,21 @@
     "following": 327,
     "posts_count": 4417,
     "bio": "Tech Enthusiast | Memento Mori | Rich is loud. Wealth is quiet.",
-    "scraped_at": "2026-09-25T18:57:05.218417"
+    "scraped_at": "2026-09-25T19:57:03.408395"
   },
   "summary": {
-    "total_score": 32.0,
-    "avg_score": 4.57,
+    "total_score": 32.1,
+    "avg_score": 4.59,
     "post_count": 7,
     "total_replies": 2,
     "total_reposts": 2,
     "total_likes": 5,
-    "total_views": 270,
+    "total_views": 272,
     "total_bookmarks": 0,
     "best_post": {
       "text": "Pinned TGT Analytics · I was evaluating financing a $4,300+ workstation (Strix H",
       "url": "https://x.com/tgtanalytics/status/2100635605747020105",
-      "score": 19.4,
+      "score": 19.45,
       "replies": 2,
       "likes": 2
     },
@@ -29,26 +29,26 @@
       "url": "https://x.com/tgtanalytics/status/2103304034887037120",
       "score": 0.3
     },
-    "scored_at": "2026-09-25T18:57:05.525247"
+    "scored_at": "2026-09-25T19:57:04.695201"
   },
   "posts": [
     {
       "text": "Pinned TGT Analytics · I was evaluating financing a $4,300+ workstation (Strix Halo or a compact DGX) to run Qwen 3.8 27B locally, with no external providers. What started as a hardware purchase analy",
       "url": "https://x.com/tgtanalytics/status/2100635605747020105",
-      "timestamp": "2026-09-25T18:57:05.240123",
+      "timestamp": "2026-09-25T19:57:03.589498",
       "pinned": false,
       "engagement": {
         "replies": 2,
         "reposts": 1,
         "likes": 2,
-        "views": 108,
+        "views": 109,
         "bookmarks": 0
       },
       "signals": {
         "reply_score": 10.0,
         "repost_score": 1.0,
         "favorite_score": 1.0,
-        "dwell_score": 5.4,
+        "dwell_score": 5.45,
         "share_score": 2.0,
         "quote_score": 0,
         "follow_author_score": 0,
@@ -71,9 +71,9 @@
           "score": 1.0
         },
         "views": {
-          "count": 108,
+          "count": 109,
           "weight": 0.05,
-          "score": 5.4
+          "score": 5.45
         },
         "bookmarks": {
           "count": 0,
@@ -81,26 +81,26 @@
           "score": 0.0
         }
       },
-      "estimated_score": 19.4,
-      "scored_at": "2026-09-25T18:57:05.524009"
+      "estimated_score": 19.45,
+      "scored_at": "2026-09-25T19:57:04.635712"
     },
     {
       "text": "TGT Analytics · ChatGPT Pulse just flipped the model. Instead of you asking, it briefs you first. 5 to 10 personalized cards waiting every morning from your chats, calendar, connected apps. Pro only f",
       "url": "https://x.com/tgtanalytics/status/2103469581754908952",
-      "timestamp": "2026-09-25T18:57:05.242025",
+      "timestamp": "2026-09-25T19:57:03.591978",
       "pinned": false,
       "engagement": {
         "replies": 0,
         "reposts": 0,
         "likes": 0,
-        "views": 33,
+        "views": 34,
         "bookmarks": 0
       },
       "signals": {
         "reply_score": 0.0,
         "repost_score": 0.0,
         "favorite_score": 0.0,
-        "dwell_score": 1.6500000000000001,
+        "dwell_score": 1.7000000000000002,
         "share_score": 0.0,
         "quote_score": 0,
         "follow_author_score": 0,
@@ -123,9 +123,9 @@
           "score": 0.0
         },
         "views": {
-          "count": 33,
+          "count": 34,
           "weight": 0.05,
-          "score": 1.6500000000000001
+          "score": 1.7000000000000002
         },
         "bookmarks": {
           "count": 0,
@@ -133,13 +133,13 @@
           "score": 0.0
         }
       },
-      "estimated_score": 1.65,
-      "scored_at": "2026-09-25T18:57:05.524068"
+      "estimated_score": 1.7,
+      "scored_at": "2026-09-25T19:57:04.635863"
     },
     {
       "text": "TGT Analytics · \"I've been using Mouse for a week, and, well... meh: lots of limitations, restrictions, and the like. It probably works fine for the average user in day-to-day life.\" \"6\" \"I've been us",
       "url": "https://x.com/tgtanalytics/status/2103304034887037120",
-      "timestamp": "2026-09-25T18:57:05.242336",
+      "timestamp": "2026-09-25T19:57:03.592538",
       "pinned": false,
       "engagement": {
         "replies": 0,
@@ -186,12 +186,12 @@
         }
       },
       "estimated_score": 0.3,
-      "scored_at": "2026-09-25T18:57:05.524083"
+      "scored_at": "2026-09-25T19:57:04.635897"
     },
     {
       "text": "TGT Analytics · \"1\" \"1\" \"17\"",
       "url": "https://x.com/tgtanalytics/status/2102744797157146891",
-      "timestamp": "2026-09-25T18:57:05.242611",
+      "timestamp": "2026-09-25T19:57:03.592790",
       "pinned": false,
       "engagement": {
         "replies": 0,
@@ -238,12 +238,12 @@
         }
       },
       "estimated_score": 0.85,
-      "scored_at": "2026-09-25T18:57:05.524094"
+      "scored_at": "2026-09-25T19:57:04.635923"
     },
     {
       "text": "TGT Analytics · \"OpenAl just cut GPT-6 API prices in half. Sol: $2 per million input tokens. Luna: ten cents. Add the 90% prompt caching discount and the math gets hard to ignore. The question for bui",
       "url": "https://x.com/tgtanalytics/status/2102742273918132692",
-      "timestamp": "2026-09-25T18:57:05.244089",
+      "timestamp": "2026-09-25T19:57:03.624635",
       "pinned": false,
       "engagement": {
         "replies": 0,
@@ -290,12 +290,12 @@
         }
       },
       "estimated_score": 0.8,
-      "scored_at": "2026-09-25T18:57:05.524123"
+      "scored_at": "2026-09-25T19:57:04.635954"
     },
     {
       "text": "TGT Analytics · So the M5 Mac Studio 128gb is out at $10k , just in time to get one moreM1 Max under $1000 \"49\" So the M5 Mac Studio 128gb is out at $10k , just in time to get one moreM1 Max under $10",
       "url": "https://x.com/tgtanalytics/status/2102496880114770065",
-      "timestamp": "2026-09-25T18:57:05.244878",
+      "timestamp": "2026-09-25T19:57:03.625395",
       "pinned": false,
       "engagement": {
         "replies": 0,
@@ -342,12 +342,12 @@
         }
       },
       "estimated_score": 2.45,
-      "scored_at": "2026-09-25T18:57:05.524149"
+      "scored_at": "2026-09-25T19:57:04.635976"
     },
     {
       "text": "TGT Analytics · \"I cut through the Jev hype looking for a real use case. Found one. This clip: 54 parts sensed, decided, sorted. Total AI cost $0.0015. 150-200ms each, 99.7% confidence. No prose, no h",
       "url": "https://x.com/tgtanalytics/status/2102384921012785583",
-      "timestamp": "2026-09-25T18:57:05.245247",
+      "timestamp": "2026-09-25T19:57:03.625683",
       "pinned": false,
       "engagement": {
         "replies": 0,
@@ -394,18 +394,18 @@
         }
       },
       "estimated_score": 6.55,
-      "scored_at": "2026-09-25T18:57:05.524161"
+      "scored_at": "2026-09-25T19:57:04.636002"
     }
   ],
   "ghost_comments": {
-    "analysis": "Account has 7 recent posts analyzed. Total estimated score: 32.00. Average per post: 4.57. The best post scored 19.40 — it dominates the account's total score. This is the content pattern to replicate: technical analysis with concrete dollar figures. 5 posts have zero engagement signals (no replies, likes, or reposts). These are dead weight in the feed. Likes (5) outnumber replies (2). Replies are worth 10x likes in the algorithm — content should invite discussion, not just agreement. Total views are low (270). The algorithm is not yet amplifying this account to new audiences. Reply targets on large accounts are the fastest path to wider distribution. Next planned action: reply_to_own_post. Post has 2 reply/replies that we have not responded to. Replying to replies on our own posts triggers the 20.0 mutual-follow weight (if mutual) or 5.0 reply weight. This is the highest-value action available.",
+    "analysis": "Account has 7 recent posts analyzed. Total estimated score: 32.10. Average per post: 4.59. The best post scored 19.45 — it dominates the account's total score. This is the content pattern to replicate: technical analysis with concrete dollar figures. 5 posts have zero engagement signals (no replies, likes, or reposts). These are dead weight in the feed. Likes (5) outnumber replies (2). Replies are worth 10x likes in the algorithm — content should invite discussion, not just agreement. Total views are low (272). The algorithm is not yet amplifying this account to new audiences. Reply targets on large accounts are the fastest path to wider distribution. Next planned action: reply_to_own_post. Post has 2 reply/replies that we have not responded to. Replying to replies on our own posts triggers the 20.0 mutual-follow weight (if mutual) or 5.0 reply weight. This is the highest-value action available.",
     "recommendations": [
       "Prioritize replies over new posts. Reply weight is 5.0-20.0 vs 0.5 for likes. Every reply to a large account puts your content in front of their followers.",
       "Consider deleting or reposting low-engagement content. Posts with zero signals hurt the account's overall distribution.",
-      "Replicate the format of the best post (score: 19.40). Technical deep-dives with real numbers and a closing question drive the highest engagement."
+      "Replicate the format of the best post (score: 19.45). Technical deep-dives with real numbers and a closing question drive the highest engagement."
     ],
     "next_action": "Planned: reply_to_own_post. Confidence: 90%.",
-    "updated_at": "2026-09-25T18:57:05.757990"
+    "updated_at": "2026-09-25T19:57:04.970445"
   },
   "weights": {
     "reply": 5.0,
@@ -437,8 +437,8 @@
     "target_post_url": "https://x.com/tgtanalytics/status/2100635605747020105",
     "target_post_text": "Pinned TGT Analytics · I was evaluating financing a $4,300+ workstation (Strix Halo or a compact DGX",
     "expected_score_impact": "+20.0 per mutual reply, +5.0 per non-mutual",
-    "timestamp": "2026-09-25T18:57:05.644565",
+    "timestamp": "2026-09-25T19:57:04.852067",
     "confidence": 0.9
   },
-  "generated_at": "2026-09-25T18:57:05.758015"
+  "generated_at": "2026-09-25T19:57:04.970469"
 }
