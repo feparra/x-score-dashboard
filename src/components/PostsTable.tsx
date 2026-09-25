@@ -16,11 +16,55 @@ export default function PostsTable({ posts }: Props) {
 
   return (
     <div className="bento" style={{ padding: 0 }}>
-      <div className="px-8 py-6 flex items-center justify-between" style={{ borderBottom: "1px solid #E5E5E5" }}>
+      <div className="px-4 py-4 sm:px-8 sm:py-6 flex items-center justify-between" style={{ borderBottom: "1px solid #E5E5E5" }}>
         <div className="text-meta-lg">Top Posts</div>
         <div className="text-meta">{sorted.length} posts</div>
       </div>
-      <div className="overflow-x-auto">
+
+      {/* Mobile: cards */}
+      <div className="md:hidden">
+        {sorted.map((post, i) => {
+          const scoreClass = post.estimated_score >= 10 ? "score-high" : "";
+          return (
+            <div key={i} className="post-card">
+              {post.pinned && (
+                <span className="text-meta mb-2 block" style={{ color: "#FF5A1F" }}>Pinned</span>
+              )}
+              <div className="post-card-text">{truncate(post.text, 120)}</div>
+              <div className="post-card-stats">
+                <span className="post-card-stat">
+                  <span className={`score-badge ${scoreClass}`} style={{ fontSize: "11px" }}>
+                    {post.estimated_score.toFixed(1)}
+                  </span>
+                </span>
+                <span className="post-card-stat">
+                  R: <span className="post-card-stat-val">{post.engagement.replies}</span>
+                </span>
+                <span className="post-card-stat">
+                  L: <span className="post-card-stat-val">{post.engagement.likes}</span>
+                </span>
+                <span className="post-card-stat">
+                  RP: <span className="post-card-stat-val">{post.engagement.reposts}</span>
+                </span>
+                <span className="post-card-stat">
+                  V: <span className="post-card-stat-val">{post.engagement.views}</span>
+                </span>
+              </div>
+              <div className="post-card-links">
+                <Link href={`/post/${i}`} className="text-meta" style={{ color: "#828282" }}>
+                  Details
+                </Link>
+                <a href={post.url} target="_blank" rel="noopener noreferrer" className="text-meta" style={{ color: "#828282" }}>
+                  View ↗
+                </a>
+              </div>
+            </div>
+          );
+        })}
+      </div>
+
+      {/* Desktop: table */}
+      <div className="hidden md:block overflow-x-auto">
         <table className="data-table">
           <thead>
             <tr>
@@ -57,20 +101,10 @@ export default function PostsTable({ posts }: Props) {
                   <td className="mono">{post.engagement.views}</td>
                   <td>
                     <div className="flex gap-3">
-                      <Link
-                        href={`/post/${i}`}
-                        className="text-meta hover:text-accent"
-                        style={{ color: "#828282" }}
-                      >
+                      <Link href={`/post/${i}`} className="text-meta" style={{ color: "#828282" }}>
                         Details
                       </Link>
-                      <a
-                        href={post.url}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-meta hover:text-accent"
-                        style={{ color: "#828282" }}
-                      >
+                      <a href={post.url} target="_blank" rel="noopener noreferrer" className="text-meta" style={{ color: "#828282" }}>
                         View ↗
                       </a>
                     </div>
