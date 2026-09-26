@@ -6,21 +6,21 @@
     "following": 327,
     "posts_count": 4417,
     "bio": "Tech Enthusiast | Memento Mori | Rich is loud. Wealth is quiet.",
-    "scraped_at": "2026-09-25T23:07:47.742443"
+    "scraped_at": "2026-09-25T23:56:30.449905"
   },
   "summary": {
-    "total_score": 34.2,
-    "avg_score": 4.28,
+    "total_score": 34.3,
+    "avg_score": 4.29,
     "post_count": 8,
     "total_replies": 2,
     "total_reposts": 2,
     "total_likes": 5,
-    "total_views": 314,
+    "total_views": 316,
     "total_bookmarks": 0,
     "best_post": {
       "text": "Pinned TGT Analytics · I was evaluating financing a $4,300+ workstation (Strix H",
       "url": "https://x.com/tgtanalytics/status/2100635605747020105",
-      "score": 19.8,
+      "score": 19.85,
       "replies": 2,
       "likes": 2
     },
@@ -29,26 +29,26 @@
       "url": "https://x.com/tgtanalytics/status/2103304034887037120",
       "score": 0.3
     },
-    "scored_at": "2026-09-25T23:16:30.071907"
+    "scored_at": "2026-09-25T23:56:30.578357"
   },
   "posts": [
     {
       "text": "Pinned TGT Analytics · I was evaluating financing a $4,300+ workstation (Strix Halo or a compact DGX) to run Qwen 3.8 27B locally, with no external providers. What started as a hardware purchase analy",
       "url": "https://x.com/tgtanalytics/status/2100635605747020105",
-      "timestamp": "2026-09-25T23:07:47.748511",
+      "timestamp": "2026-09-25T23:56:30.456286",
       "pinned": false,
       "engagement": {
         "replies": 2,
         "reposts": 1,
         "likes": 2,
-        "views": 116,
+        "views": 117,
         "bookmarks": 0
       },
       "signals": {
         "reply_score": 10.0,
         "repost_score": 1.0,
         "favorite_score": 1.0,
-        "dwell_score": 5.800000000000001,
+        "dwell_score": 5.8500000000000005,
         "share_score": 2.0,
         "quote_score": 0,
         "follow_author_score": 0,
@@ -71,9 +71,9 @@
           "score": 1.0
         },
         "views": {
-          "count": 116,
+          "count": 117,
           "weight": 0.05,
-          "score": 5.800000000000001
+          "score": 5.8500000000000005
         },
         "bookmarks": {
           "count": 0,
@@ -81,26 +81,26 @@
           "score": 0.0
         }
       },
-      "estimated_score": 19.8,
-      "scored_at": "2026-09-25T23:16:30.071763"
+      "estimated_score": 19.85,
+      "scored_at": "2026-09-25T23:56:30.577916"
     },
     {
       "text": "TGT Analytics · ChatGPT Pulse just flipped the model. Instead of you asking, it briefs you first. 5 to 10 personalized cards waiting every morning from your chats, calendar, connected apps. Pro only f",
       "url": "https://x.com/tgtanalytics/status/2103469581754908952",
-      "timestamp": "2026-09-25T23:07:47.749849",
+      "timestamp": "2026-09-25T23:56:30.457768",
       "pinned": false,
       "engagement": {
         "replies": 0,
         "reposts": 0,
         "likes": 0,
-        "views": 41,
+        "views": 42,
         "bookmarks": 0
       },
       "signals": {
         "reply_score": 0.0,
         "repost_score": 0.0,
         "favorite_score": 0.0,
-        "dwell_score": 2.0500000000000003,
+        "dwell_score": 2.1,
         "share_score": 0.0,
         "quote_score": 0,
         "follow_author_score": 0,
@@ -123,9 +123,9 @@
           "score": 0.0
         },
         "views": {
-          "count": 41,
+          "count": 42,
           "weight": 0.05,
-          "score": 2.0500000000000003
+          "score": 2.1
         },
         "bookmarks": {
           "count": 0,
@@ -133,13 +133,13 @@
           "score": 0.0
         }
       },
-      "estimated_score": 2.05,
-      "scored_at": "2026-09-25T23:16:30.071815"
+      "estimated_score": 2.1,
+      "scored_at": "2026-09-25T23:56:30.577964"
     },
     {
       "text": "TGT Analytics · \"I've been using Mouse for a week, and, well... meh: lots of limitations, restrictions, and the like. It probably works fine for the average user in day-to-day life.\" \"6\" \"I've been us",
       "url": "https://x.com/tgtanalytics/status/2103304034887037120",
-      "timestamp": "2026-09-25T23:07:47.750086",
+      "timestamp": "2026-09-25T23:56:30.458035",
       "pinned": false,
       "engagement": {
         "replies": 0,
@@ -186,12 +186,12 @@
         }
       },
       "estimated_score": 0.3,
-      "scored_at": "2026-09-25T23:16:30.071829"
+      "scored_at": "2026-09-25T23:56:30.577978"
     },
     {
       "text": "TGT Analytics · \"1\" \"1\" \"17\"",
       "url": "https://x.com/tgtanalytics/status/2102744797157146891",
-      "timestamp": "2026-09-25T23:07:47.750323",
+      "timestamp": "2026-09-25T23:56:30.458255",
       "pinned": false,
       "engagement": {
         "replies": 0,
@@ -238,12 +238,12 @@
         }
       },
       "estimated_score": 0.85,
-      "scored_at": "2026-09-25T23:16:30.071839"
+      "scored_at": "2026-09-25T23:56:30.577989"
     },
     {
       "text": "TGT Analytics · \"OpenAl just cut GPT-6 API prices in half. Sol: $2 per million input tokens. Luna: ten cents. Add the 90% prompt caching discount and the math gets hard to ignore. The question for bui",
       "url": "https://x.com/tgtanalytics/status/2102742273918132692",
-      "timestamp": "2026-09-25T23:07:47.751133",
+      "timestamp": "2026-09-25T23:56:30.459385",
       "pinned": false,
       "engagement": {
         "replies": 0,
@@ -290,12 +290,12 @@
         }
       },
       "estimated_score": 0.8,
-      "scored_at": "2026-09-25T23:16:30.071852"
+      "scored_at": "2026-09-25T23:56:30.578001"
     },
     {
       "text": "TGT Analytics · So the M5 Mac Studio 128gb is out at $10k , just in time to get one moreM1 Max under $1000 \"49\" So the M5 Mac Studio 128gb is out at $10k , just in time to get one moreM1 Max under $10",
       "url": "https://x.com/tgtanalytics/status/2102496880114770065",
-      "timestamp": "2026-09-25T23:07:47.751752",
+      "timestamp": "2026-09-25T23:56:30.460043",
       "pinned": false,
       "engagement": {
         "replies": 0,
@@ -342,12 +342,12 @@
         }
       },
       "estimated_score": 2.45,
-      "scored_at": "2026-09-25T23:16:30.071861"
+      "scored_at": "2026-09-25T23:56:30.578010"
     },
     {
       "text": "TGT Analytics · \"I cut through the Jev hype looking for a real use case. Found one. This clip: 54 parts sensed, decided, sorted. Total AI cost $0.0015. 150-200ms each, 99.7% confidence. No prose, no h",
       "url": "https://x.com/tgtanalytics/status/2102384921012785583",
-      "timestamp": "2026-09-25T23:07:47.751989",
+      "timestamp": "2026-09-25T23:56:30.460260",
       "pinned": false,
       "engagement": {
         "replies": 0,
@@ -394,12 +394,12 @@
         }
       },
       "estimated_score": 6.55,
-      "scored_at": "2026-09-25T23:16:30.071870"
+      "scored_at": "2026-09-25T23:56:30.578023"
     },
     {
       "text": "TGT Analytics · \"How it maps to a real line: conveyor → PLC, laser gates → industrial sensors (spectrometer + 3D profiler), Jev → the decision layer, sim arm → robot/PLC actuator. Every part fired a r",
       "url": "https://x.com/tgtanalytics/status/2102419703973269767",
-      "timestamp": "2026-09-25T23:07:47.752274",
+      "timestamp": "2026-09-25T23:56:30.460533",
       "pinned": false,
       "engagement": {
         "replies": 0,
@@ -446,18 +446,18 @@
         }
       },
       "estimated_score": 1.4,
-      "scored_at": "2026-09-25T23:16:30.071878"
+      "scored_at": "2026-09-25T23:56:30.578032"
     }
   ],
   "ghost_comments": {
-    "analysis": "Account has 8 recent posts analyzed. Total estimated score: 34.20. Average per post: 4.28. The best post scored 19.80 — it dominates the account's total score. This is the content pattern to replicate: technical analysis with concrete dollar figures. 6 posts have zero engagement signals (no replies, likes, or reposts). These are dead weight in the feed. Likes (5) outnumber replies (2). Replies are worth 10x likes in the algorithm — content should invite discussion, not just agreement. Total views are low (314). The algorithm is not yet amplifying this account to new audiences. Reply targets on large accounts are the fastest path to wider distribution. Next planned action: wait. Outside active hours (current: 23:00). Waiting until 7 AM.",
+    "analysis": "Account has 8 recent posts analyzed. Total estimated score: 34.30. Average per post: 4.29. The best post scored 19.85 — it dominates the account's total score. This is the content pattern to replicate: technical analysis with concrete dollar figures. 6 posts have zero engagement signals (no replies, likes, or reposts). These are dead weight in the feed. Likes (5) outnumber replies (2). Replies are worth 10x likes in the algorithm — content should invite discussion, not just agreement. Total views are low (316). The algorithm is not yet amplifying this account to new audiences. Reply targets on large accounts are the fastest path to wider distribution. Next planned action: wait. Outside active hours (current: 23:00). Waiting until 7 AM.",
     "recommendations": [
       "Prioritize replies over new posts. Reply weight is 5.0-20.0 vs 0.5 for likes. Every reply to a large account puts your content in front of their followers.",
       "Consider deleting or reposting low-engagement content. Posts with zero signals hurt the account's overall distribution.",
-      "Replicate the format of the best post (score: 19.80). Technical deep-dives with real numbers and a closing question drive the highest engagement."
+      "Replicate the format of the best post (score: 19.85). Technical deep-dives with real numbers and a closing question drive the highest engagement."
     ],
     "next_action": "Planned: wait. Confidence: 100%.",
-    "updated_at": "2026-09-25T23:16:33.892876"
+    "updated_at": "2026-09-25T23:56:30.827762"
   },
   "weights": {
     "reply": 5.0,
@@ -487,8 +487,8 @@
     "action": "wait",
     "reason": "Outside active hours (current: 23:00). Waiting until 7 AM.",
     "next_check": "07:00",
-    "timestamp": "2026-09-25T23:16:31.592402",
+    "timestamp": "2026-09-25T23:56:30.692327",
     "confidence": 1.0
   },
-  "generated_at": "2026-09-25T23:16:33.892900"
+  "generated_at": "2026-09-25T23:56:30.827788"
 }
