@@ -1,25 +1,32 @@
-import fs from "fs";
-import path from "path";
-import type { NextApiResponse } from "next";
-import type { DashboardData } from "@/lib/types";
+import { Redis } from "@upstash/redis";
+import type { NextRequest } from "next/server";
 
-export async function GET() {
+export const dynamic = "force-dynamic";
+
+const redis = new Redis({
+  url: process.env.UPSTASH_REDIS_REST_URL || "",
+  token: process.env.UPSTASH_REDIS_REST_TOKEN || "",
+});
+
+export async function GET(_req: NextRequest) {
   try {
-    const filePath = path.join(process.cwd(), "public", "data.json");
-    const fileContents = fs.readFileSync(filePath, "utf-8");
-    const data: DashboardData = JSON.parse(fileContents);
-
-    return new Response(JSON.stringify(data), {
-      status: 200,
+    const data = await redis.get("tgt:dashboard");
+    if (!data) {
+      return Response.json(
+        { error: "No data available yet. Waiting for first scraper run." },
+        { status: 404 }
+      );
+    }
+    return Response.json(data, {
       headers: {
-        "Content-Type": "application/json",
-        "Cache-Control": "no-store, no-cache, must-revalidate",
+        "Cache-Control": "no-store, max-age=0",
+        "Access-Control-Allow-Origin": "*",
       },
     });
-  } catch (error) {
-    return new Response(JSON.stringify({ error: "Failed to load data" }), {
-      status: 500,
-      headers: { "Content-Type": "application/json" },
-    });
+  } catch (err) {
+    return Response.json(
+      { error: "Failed to fetch data from Redis", details: String(err) },
+      { status: 500 }
+    );
   }
 }
